@@ -1,8 +1,26 @@
 <html>
     <head>
         <title>Akan Names</title>
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="mystyle.css" rel="stylesheet">
     </head>
     <body>
-        <title>Akan Names</title>
+        <h1><b><u>AKAN NAMES</u></b></h1>
+        <p>Input your details below and we will be able to tell you your Akan Name: </p>
+        <form action="/action_page.php">
+            <label for="century"><b><u>Century Born</u></b></label><br>
+            <input type="text" id="century" name="century" value="e.g 19 or 20"><br><br>
+            <label for="year"><b><u>Year Born</u></b></label><br>
+            <input type="text" id="year" name="year" value="e.g 99 or 71"><br><br>
+            <label for="gender"><b><u>Gender</u></b></label><br>
+            
+            <select id="mySelect">
+                <option>Male</option>
+                <option>Female</option>
+               
+              </select>
+              <br><br>
+            <input type="submit" value="Submit">
+        </form>
     </body>
 </html>
