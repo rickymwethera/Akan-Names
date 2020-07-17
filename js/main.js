@@ -10,6 +10,79 @@ function getName() {
     var answer = result.toFixed();
     var boy = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
     var girl = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
-    
+    if (document.getElementById("Gender").select){
+        var gender = "Male";
+    } 
+    else {
+        var gender = "Female";
+    }
+    if(mm < 1 || mm > 12 || mm == 2 && dd>29) {
+        alert("INVALID MONTH INPUT");
+    }
+    else if (dd < 1 || dd > 31) {
+        alert("INVALID DAY INPUT");
+    }
+    if(answer == 0 && gender === "Male");{
+        document.getElementById("getName").innerHTML = 
+        ("Born on Sunday. Your akan name is" + boy[0]);
+    }
+    else if(answer == 1 && gender === "Male");{
+        document.getElementById("getName").innerHTML = 
+        ("Born on Monday. Your akan name is" + boy[1]);
+    }
+    else if(answer == 2 && gender === "Male");{
+        document.getElementById("getName").innerHTML = 
+        ("Born on Tuesday. Your akan name is" + boy[2]);
+    }
+    else if(answer == 3 && gender === "Male");{
+        document.getElementById("getName").innerHTML = 
+        ("Born on Wednesday. Your akan name is" + boy[3]);
+    }
+    else if(answer == 4 && gender === "Male");{
+        document.getElementById("getName").innerHTML = 
+        ("Born on Thursday. Your akan name is" + boy[4]);
+    }
+    else if(answer == 5 && gender === "Male");{
+        document.getElementById("getName").innerHTML = 
+        ("Born on Friday. Your akan name is" + boy[5]);
+    }
+    else if(answer == 6 && gender === "Male");{
+        document.getElementById("getName").innerHTML = 
+        ("Born on Saturday. Your akan name is" + boy[6]);
+    }
+    else if(answer == 0 && gender === "Female");{
+        document.getElementById("getName").innerHTML = 
+        ("Born on Sunday. Your akan name is" + girl[0]);
+    }
+    else if(answer == 1 && gender === "Female");{
+        document.getElementById("getName").innerHTML = 
+        ("Born on Monday. Your akan name is" + girl[1]);
+    }
+    else if(answer == 2 && gender === "Female");{
+        document.getElementById("getName").innerHTML = 
+        ("Born on Tuesday. Your akan name is" + girl[2]);
+    }
+    else if(answer == 3 && gender === "Female");{
+        document.getElementById("getName").innerHTML = 
+        ("Born on Wednesday. Your akan name is" + girl[3]);
+    }
+    else if(answer == 4 && gender === "Female");{
+        document.getElementById("getName").innerHTML = 
+        ("Born on Thursday. Your akan name is" + girl[4]);
+    }
+    else if(answer == 5 && gender === "Female");{
+        document.getElementById("getName").innerHTML = 
+        ("Born on Friday. Your akan name is" + girl[5]);
+    }
+    else if(answer == 6 && gender === "Female");{
+        document.getElementById("getName").innerHTML = 
+        ("Born on Saturday. Your akan name is" + girl[6]);
+    }
+
+
+
+
+
+
 
 }
