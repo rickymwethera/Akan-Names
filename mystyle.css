@@ -10,3 +10,6 @@ h1 {
     background: linear-gradient(to right, #9c27b0, #8ecdff);
 
 }
+.getName {
+    display: inline-block;
+}
