@@ -14,30 +14,31 @@
 
             This naming tradition is shared throughout West Africa and the African diaspora. During the 18th–19th centuries, enslaved people in the Caribbean from the region that is modern-day Ghana were referred to as Coromantees. Many of the leaders of enslaved people’s rebellions had "day names" including Cuffy, Cuffee or Kofi, Cudjoe or Kojo, Quao or Quaw, and Quamina or Kwame/Kwamina.
             
-            Most Ghanaians have at least one name from this system, even if they also have an English or Christian name. Notable figures with day names include Ghana's first president Kwame Nkrumah and former United Nations Secretary-General Kofi Annan.</p>
+            Most Ghanaians have at least one name from this system</p>
         <p>Key in your details below to find out your Akan name!</p>
-        <form action="index.html">
-            <label for="Year of Birth"><b><u>Year of Birth</u></b></label><br>
-            <input type="text" id="birthyear" name="birthyear" placeholder="e.g 1980"><br><br>
-            <label for="month"><b><u>Month Born</u></b></label><br>
-            <input type="text" id="Month" name="Month" placeholder="e.g 10 or 1"><br><br>
-            <label for="date"><b><u>Date Born</u></b></label><br>
-            <input type="text" id="Birthdate" name="Birthdate" placeholder="e.g 19 or 20"><br><br>
-            <label for="gender"><b><u>Gender</u></b></label><br>
+        <form>
+            <label for="birthyear"><b><u>Year of Birth</u></b></label><br>
+            <input type="text" id="birthyear" name="birthyear" placeholder="e.g 1980" value=""><br><br>
+            <label for="Month"><b><u>Month Born</u></b></label><br>
+            <input type="text" id="Month" name="Month" placeholder="e.g 10 or 1" value=""><br><br>
+            <label for="Birthdate"><b><u>Date Born</u></b></label><br>
+            <input type="text" id="Birthdate" name="Birthdate" placeholder="e.g 19 or 20" value=""><br><br>
             
-            <select id="mySelect">
-                <option>Male</option>
-                <option>Female</option>
-               
-              </select>
-              <br><br>
-            <input type="submit" value="Submit" onclick="getName">
-
+            
+            <label for="gender"><b><u>Gender</u></b></label><br>
+                <input type="radio" name="gender" id="gender" value="Male" checked> Male<br>
+                <input type="radio" name="gender" value="Female" > Female<br><br>
+                <input type="submit" value="Submit" onclick="getName()">
+                <div id="output">
+                
+              <br>
+            
+            
         </form>
     </div>
     </div>
 
-    </script>
-   
+    
+    
     </body>
 </html>
