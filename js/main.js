@@ -32,7 +32,7 @@ function getName() {
     }
     else if(answer == 1 && gender === "Male"){
         document.getElementById("output").innerHTML = 
-        ("Born on Monday. Your akan name is " + boy[1]);
+        ("Born on Monday. Your akan name is " + boy[1]); 
     }
     else if(answer == 2 && gender === "Male"){
         document.getElementById("output").innerHTML = 
