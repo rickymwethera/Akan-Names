@@ -1,5 +1,5 @@
 # AKAN NAME GENERATOR
-#### 
+#### https://rickymwethera.github.io/Akan-Names/
 #### By Ricky Mwethera
 ## Description
  A simple web application that takes a users birthday, calculates the day of the week that they were born and depending on their gender, outputs their Akan name
